@@ -42,7 +42,7 @@ When generating paper wallets that will store large amounts of crypto, please ta
 1. `zecpaperwallet` supports ARMv8 (Raspberry Pi 3+). You can put one in a Faraday cage along with a printer, and print out the PDFs securely.
 2. Please ensure you supply random entropy when you run `zecpaperwallet`. Your entropy is mixed in with system-provided entropy to generate keys
 3. If you can, run with `unshare`, which will disable all network interfaces to a process, providing you with an additional layer of safety. (See next section)
-4. After you've generated the keys, you can tear off the Address potion of the wallet and take it to your online computer/phone to send the address funds. Please always keep the private key offline. 
+4. After you've generated the keys, you can tear off the Address portion of the wallet and take it to your online computer/phone to send the address funds. Please always keep the private key offline. 
 5. When you're ready to spend the cold storage keys, import the private key into a full node, then don't re-use the key again. 
 
 ### Run without network
